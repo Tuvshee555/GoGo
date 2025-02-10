@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+.bodd {
+  background: rgb(48, 55, 66);
+  background: linear-gradient(
+    180deg,
+    rgba(48, 55, 66, 1) 0%,
+    rgba(51, 58, 69, 1) 50%,
+    rgba(55, 62, 73, 1) 100%
+  );
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexy {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cirbig {
+    background-color: #42575a;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+}
+.cir {
+  position: 2;
+  background-color: #105b6b;
+  height: 110px;
+  width: 110px;
+  border-radius: 100%;
+  border: solid black;
+  border-width: 5px;
+}
+.cir2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 41%, rgba(255,255,255,1) 45%, rgba(240,255,255,1) 46%, rgba(107,254,254,1) 100%);
+z-index: 3;
+}
